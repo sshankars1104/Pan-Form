@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pan Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="heading">
+        <h1><b>Request For New PAN Card Or/And Changes Or Correction In PAN Data</b></h1>
+        <h2><i>Fields marked with <span style="color: red; text-decoration: none;"> * </span>(asterisk) are mandatory.
+                To avoidmistack(s),please <span>guidelines</span>
+                and<span>instructions</span></i></h2>
+    </div>
+
+    <div>
+        <form>
+            <div class="citizen">
+                <div><span style="color: red">*</span> <b>whether citizen of india</b></div>
+                <div class="citizenRadio">
+                    <label for="Yes">Yes</label>
+                    <input type="radio" name="citizen" id="Yes" value="Yes" />
+                    <label for="No">No</label>
+                    <input type="radio" name="citizen" id="No" value="No" /><br />
+                </div>
+            </div>
+            <div class="PAN">
+                <span style="color: red">*</span><b>Permanent Account Number(PAN)</b>
+                <input type="text" /><br />
+            </div>
+            <div class="OneNamecheckbox">
+                <div><input type="checkbox" name="Name" id="Name" /></div>
+                <div class="OneName">
+                    <span style="color: red">*</span> <b>1.Name</b><br />
+                </div>
+            </div>
+
+
+
+            <div class="TittleRadio"><b>Tittle</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; shri/Mr
+                <input type="radio" name="Tittle" id="shri/Mr" /> Smt./Mrs.
+                <input type="radio" name="Tittle" id="Smt./Mrs." /> Kumari/Ms.
+                <input type="radio" name="Tittle" id="Kumari/Ms." /><br />
+            </div>
+            <div class="Names">
+                <div class="Surename">
+                    Last Name/Surename <br /><input type="text" />
+                </div>
+                <div class="FirstName">First Name <br /><input type="text" /></div>
+                <div class="MiddleName">Middle Name <br /><input type="text" /></div>
+            </div>
+            <div class="NameAS">
+                <span style="color: red">*</span><b>Name as you would like it printed on
+                    the card</b>
+                <span style="color: blue">(Prefix like Shri, Smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias
+                    etc. not allowed)</span><br /><input type="text" /><br />
+            </div>
+            <div class="DetailsOfParents">
+                <b> Details of Parents.</b><span style="color: blue">(Prefix like Shri, Smt, Kumari, Late, Dr, CA, Ms,
+                    Mr, Mrs, M/s,
+                    Alias
+                    etc. not allowed)</span><br />
+            </div>
+            <div class="whether">
+                <div class="whethermother">
+                    <b> whether mother is single parent and you wish to apply for PAN by
+                        furnishing the name of your <br />
+                        mother only</b>
+                </div>
+                <div class="whetherRadio">
+                    <label for="Yes">Yes</label><input type="radio" name="whetherRadio" id="Yes" value="Yes" />
+                    <label for="No">No</label><input type="radio" name="whetherRadio" id="No" value="No" /><br />
+                </div>
+            </div>
+
+            <div class="FatherNamecheckBox">
+                <div><input type="checkbox" name="FatherName" id="FatherName"></div>
+                <div class="FatherName">
+                    <span style="color: red">*</span><b>Father Name</b>
+                    <span style="color: blue">(Mandatory field . Even married women should give father's name
+                        only.)</span><br />
+                </div>
+            </div>
+
+            <div class="Names">
+                <div class="Surename">
+                    Last Name/Surename <br /><input type="text" />
+                </div>
+                <div class="FirstName">First Name <br /><input type="text" /></div>
+                <div class="MiddleName">Middle Name <br /><input type="text" /></div>
+            </div>
+            <div class="MotherNameCheckbox">
+                <div><input type="checkbox" name="FatherName" id="FatherName"></div>
+                <div class="MotherName">
+                    <span style="color: red">*</span><b>Mother Name</b>
+                    <span style="color: blue">(The Field is Optional.)</span><br />
+                </div>
+            </div>
+            <div class="Names">
+                <div class="Surename">
+                    Last Name/Surename <br /><input type="text" />
+                </div>
+                <div class="FirstName">First Name <br /><input type="text" /></div>
+                <div class="MiddleName">Middle Name <br /><input type="text" /></div>
+            </div>
+
+            <div class="SelectParentname">
+                <div>
+                    <span style="color: red">*</span><b>4.Select Parent name which is ti
+                        be printed on the card </b><br />
+                    <span style="color: blue">(In case no potion is provided then PAN will be issued with
+                        father's name)</span>
+                </div>
+                <div class="fathersRadio">
+                    <label for="FatherName">Father Name</label><input type="radio" name="fathersRadio" id="FatherName"
+                        value="FatherName" />
+                    <label for="MotherName">Mother Name</label><input type="radio" name="fathersRadio" id="MotherName"
+                        value="MotherName" /><br />
+                </div>
+            </div>
+
+            <div class="DateOfBirthcheckbox">
+                <div><input type="checkbox" name="DateOfBirth" id="DateOfBirth"></div>
+                <div class="DateOfBirth">
+                    <span style="color: red">*</span><b>5.Date of
+                        Birth/Incorporation/Agreement/Partnership <br />or Trust
+                        Deed/Formation of Body of Individuals/ <br />Association of Persons</b>
+                </div>
+                <div class="DateOfBirthInput">
+                    <input type="date" name="date" id="date" />
+                </div>
+            </div>
+
+            <div class="Gendercheckbox">
+                <div><input type="checkbox" name="DateOfBirth" id="DateOfBirth"></div>
+
+                <div class="Gender"><span style="color: red">*</span><b>6.Gender</b></div>
+
+                <div class="GenderRadio">
+                    <label for="Male">Male</label><input type="radio" name="GenderRadio" id="Male" value="Male" />
+                    <label for="FeMale">FeMale</label><input type="radio" name="GenderRadio" id="FeMale"
+                        value="FeMale" />
+                    <label for="TransGender">TransGender</label><input type="radio" name="GenderRadio" id="TransGender"
+                        value="TransGender" />
+                </div>
+            </div>
+
+            <div class="PhotoMismatchcheckbox">
+                <div><input type="checkbox" name="DateOfBirth" id="DateOfBirth"></div>
+                <div class="PhotoMismatch"><b> 7. Photo Mismatch</b></div>
+            </div>
+            <div class="SignatureMismatchcheckbox">
+                <div><input type="checkbox" name="DateOfBirth" id="DateOfBirth"></div>
+                <div class="SignatureMismatch"><b> 8. Signature Mismatch</b></div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+body {
+  background-color: peachpuff;
+}
+
+.heading {
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  font-size: 15px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+.heading h2 span {
+  text-decoration: underline;
+  color: orange;
+}
+
+.citizen {
+  display: flex;
+  padding: 5px 0px 0px 50px;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.citizenRadio {
+  padding-left: 100px;
+}
+
+.PAN {
+  padding: 5px 0px 0px 50px;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.OneNamecheckbox {
+  display: flex;
+  border: 1px solid rgb(160, 160, 160);
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.OneName {
+  padding: 5px 0px 0px 30px;
+}
+
+.TittleRadio {
+  padding: 5px 0px 0px 50px;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.Names {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px 0px 50px;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.Surename,
+.FirstName {
+  padding-right: 200px;
+}
+
+.NameAS {
+  padding: 5px 0px 0px 50px;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.DetailsOfParents {
+  padding: 5px 0px 0px 50px;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.whether {
+  display: flex;
+  padding: 5px 0px 0px 50px;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.whetherRadio {
+  padding: 5px 0px 0px 50px;
+  align-items: center;
+}
+
+.FatherNamecheckBox,
+.MotherNameCheckbox {
+  display: flex;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.FatherName,
+.MotherName {
+  padding: 5px 0px 0px 30px;
+}
+
+.SelectParentname {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px 0px 50px;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.fathersRadio {
+  padding-left: 85px;
+}
+
+.DateOfBirthcheckbox {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.DateOfBirth {
+  padding: 5px 0px 0px 30px;
+}
+
+.DateOfBirthInput {
+  padding-left: 180px;
+}
+
+.Gendercheckbox {
+  display: flex;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.Gender {
+  padding: 5px 0px 0px 30px;
+}
+
+.PhotoMismatchcheckbox {
+  display: flex;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.PhotoMismatch {
+  padding: 5px 0px 0px 30px;
+}
+
+.GenderRadio {
+  padding-left: 480px;
+}
+
+.SignatureMismatchcheckbox {
+  display: flex;
+  border: 1px solid rgb(160, 160, 160);
+}
+
+.SignatureMismatch {
+  padding: 5px 0px 0px 30px;
+}
